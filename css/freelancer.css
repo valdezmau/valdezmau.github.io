@@ -70,6 +70,7 @@ hr.star-primary:after {
 header {
   text-align: center;
   background-image: url("../img/wood.jpg");
+  background-size: cover;
   color: white;
 }
 header .container {
