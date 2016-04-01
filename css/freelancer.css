@@ -54,7 +54,7 @@ hr.star-light {
   border-color: white;
 }
 hr.star-light:after {
-  background-color: #18bc9c;
+
   color: white;
 }
 hr.star-primary {
@@ -69,7 +69,7 @@ hr.star-primary:after {
 }
 header {
   text-align: center;
-  background: #18bc9c;
+  background-image: url("../img/wood.jpg");
   color: white;
 }
 header .container {
@@ -88,7 +88,8 @@ header .intro-text .name {
   font-size: 2em;
 }
 header .intro-text .skills {
-  font-size: 1.25em;
+  font-family: 'Pacifico', cursive;
+  font-size: 2em;
   font-weight: 300;
 }
 @media (min-width: 768px) {
@@ -149,8 +150,13 @@ section h2 {
   font-size: 3em;
 }
 section.success {
-  background: #18bc9c;
+  background-image: url("../img/banner2.jpg");
   color: white;
+  background-size: cover;
+  padding-top: 50px;
+}
+section .box {
+  background-color: rgba(90, 140, 140, .50);
 }
 section.success a,
 section.success a:hover,
