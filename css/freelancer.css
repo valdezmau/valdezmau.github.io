@@ -88,7 +88,8 @@ header .intro-text .name {
   font-size: 2em;
 }
 header .intro-text .skills {
-  font-size: 1.25em;
+  font-family: 'Pacifico', cursive;
+  font-size: 2em;
   font-weight: 300;
 }
 @media (min-width: 768px) {
